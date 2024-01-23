@@ -36,7 +36,7 @@ void loop() {
   Serial.print(gyr[1]);
   Serial.print(", ");
   Serial.println(gyr[2]);
-  Serial.print("pitchSetpoint: ");
+  Serial.print("yawSetpoint: ");
   Serial.println(atan2(-acc[0], acc[1]) * (180.0/PI));
   delay(1000); 
 }
